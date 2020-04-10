@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'glyphworldmountain';
+    src: url('glyphworld-mountain-webfont.woff2') format('woff2'),
+         url('glyphworld-mountain-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  margin:5%;
+  font-family: 'glyphworldmountain', cursive;
+  overflow: auto;
+  overflow-y: hidden;
+}
+p{width:610px;
+font-size: 90%;}
+
+img {
+  float: left;
+  width:24%;
+}
+
+#cans{width:200%;}
