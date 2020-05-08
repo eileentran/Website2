@@ -20,3 +20,27 @@ img {
 }
 
 #cans{width:200%;}
+
+.opacity:hover {
+  animation: transition 1.5s ease-in-out;
+  animation-iteration-count: one;
+}
+
+@keyframes transition {
+  0% { opacity:100%;}
+  50% { opacity:0%; ;}
+  100% { opacity:100%;;}
+}
+
+h1 {
+  animation: transitions 1.5s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes transitions {
+  0% { opacity:100%;}
+  25% { opacity:0%;}
+  50% { opacity:30%;}
+  75% { opacity:0%;}
+  100% { opacity:50%;;}
+}
